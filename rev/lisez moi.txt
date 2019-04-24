@@ -1,0 +1,15 @@
+L' Horloge Je JavaScript Sur Votre Page 
+
+
+Télécharger le fichier.zip 
+vous y trouverez le dossier rev/ contenant le fichier  h.js 
++ 11 fichiers nécessaires à l'affichage de l'horloge + un fichier lisez-moi.txt
+
+Extraire le dossier(répertoire) rev/ dans le dossier ou se trouve votre page, 
+puis insérer ces lignes de code à l'endroit de cette page où vous souhaitez afficher l'horloge.
+(Si vous extrayez les fichiers manuellement, créez le dossier rev/ et collez y les fichiers )
+
+<!-- /PLF - http://www.jejavascript.net/ -->
+<script language="javascript"src="rev/h.js"></script>
+<!-- /PLF - http://www.jejavascript.net/ -->
+

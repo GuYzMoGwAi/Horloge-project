@@ -1,0 +1,117 @@
+html {
+    height: 100vh;
+}
+
+
+body {
+    height: auto;
+    background-color: lightcyan;
+}
+
+
+.horloge {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-content: space-around;
+    background-position: center;
+    height: 50vh;
+    width: auto;
+}
+
+.paris {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;
+    text-align: center;
+}
+.hp {
+    align-items: center;
+    display: flex;
+    flex-flow: nowrap row;
+    align-content: space-around;
+    margin-top: -100px;
+}
+
+
+
+.newyork {
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;                                
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.londre {
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;                                
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.moscow {
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;                                
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.beijing {
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;                                
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.losangeles {
+    background-image: url(../asset/images/combi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 40vh;                                
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    html{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .horloge {
+        display: flex;
+        flex-direction: column;
+    }
+    .hp {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*=========================
+    Horloge dynamique !
+=========================*/
+
+  
